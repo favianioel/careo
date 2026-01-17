@@ -1,53 +1,50 @@
-# Careo 🌿
+# Welcome to your Expo app 👋
 
-**Intentional Relationship Management for Ministry**
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-Careo is an offline-first mobile application designed to help you be intentional with the people in your life. Whether you are building friendships, discipling others, or raising support, Careo helps you keep track of where every relationship is going.
+## Get started
 
-## ✨ Features
+1. Install dependencies
 
-### 👥 People & Relationships
-- **Deep Profiles**: Track birthdays, anniversaries, and status (Partner, Friend, Disciple).
-- **Privacy Lock**: Sensitive pastoral notes are hidden behind a "Tap to Reveal" shield (`Icons.lock`), ensuring privacy during face-to-face meetings.
-- **Theology-Aligned**: Language tailored for ministry contexts.
+   ```bash
+   npm install
+   ```
 
-### 📅 Interactions & Calendar
-- **Log Interactions**: Quickly record calls, meetings, coffee, or prayer times.
-- **Calendar Sync**: Automatically syncs scheduled meetings to your device's calendar.
-- **History**: View a timeline of your journey with each person.
+2. Start the app
 
-### 🚀 Pipeline Views
-- **Kanban Board**: Visualize your contacts in stages.
-- **Evangelism Pipeline**: Identify -> Engage -> Share -> Follow-Up -> Disciple.
-- **Support Raising**: Identify -> Cultivate -> Ask -> Will Decide -> Partner.
-- **Drag & Drop**: Easily move people between stages as relationships progress.
+   ```bash
+   npx expo start
+   ```
 
-### ✅ Daily Care Plan
-- **Smart Reminders**: Automated reminders to connect based on frequency settings.
-- **Dashboard**: A "Mission Control" for your day. See who needs a call, whose birthday it is, and what tasks are pending.
+In the output, you'll find options to open the app in a
 
-## 🛠️ Tech Stack
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-- **Framework**: Flutter (Windows, Android, iOS)
-- **State Management**: Riverpod 2.0
-- **Database**: Isar (NoSQL, fast, offline-first)
-- **Routing**: GoRouter
-- **Theme**: Material 3 (Teal & Warm tones)
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## 🚀 Getting Started
+## Get a fresh project
 
-1.  **Clone the repo**
-    ```bash
-    git clone https://github.com/favianioel/careo.git
-    cd careo
-    ```
+When you're ready, run:
 
-2.  **Install Dependencies**
-    ```bash
-    flutter pub get
-    ```
+```bash
+npm run reset-project
+```
 
-3.  **Run the App**
-    ```bash
-    flutter run
-    ```
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+
+## Learn more
+
+To learn more about developing your project with Expo, look at the following resources:
+
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+
+## Join the community
+
+Join our community of developers creating universal apps.
+
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
